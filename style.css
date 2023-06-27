@@ -3,3 +3,11 @@ body {
     font-family: monospace;
     font-size: 15px;
 }
+
+img {
+    border: 5px solid #000;
+}
+
+h1 {
+    font-size: 25px;
+}
