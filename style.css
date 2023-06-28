@@ -1,35 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: lightsteelblue;
-    font-family: monospace;
-    font-size: 15px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(226, 215, 215);
+    font-family: cursive;    
 }
 
-img {
-    border: 4px solid #2e90bd;
-    border-radius: 100px;    
+.header, .bio, .habil {
+    width: 80%;
+    margin: auto;
+    padding-top: 10px;
+    background-color: rgb(49, 45, 45);
 }
 
-h1 {
-    font-size: 25px;
+.header img{
+    border: 2px solid gray;
+    
 }
 
-.header {
-    display: inline;     
-    text-align: left;  
+.header h1 {
+    display: inline;
+    float: right;    
+    padding-right: 670px;
+    padding-top: 40px;
+    font-weight: bold;
 }
 
-.header li{
-    display: inline-block;    
-    padding: 10px 5px;  
-    font-weight: 300; 
-    border: 2px solid #2e90bd; 
-    border-radius: 100px;
+.bio {
+    padding-top: 10px;
+    background-color: rgb(59, 55, 55);
+}
+
+.bio h2 {
     text-align: center;
-    background-color: #2e90bd;
-    color: white;
+    font-weight: bold;
+    padding: 10px 5px;
 }
 
-.header a {
-    text-decoration: none;
-    color: #000;
+.bio p {
+    font-weight: 600;
+    text-align: center;
+    padding: 0 5px 15px 5px;
+}
+
+.habil {
+    background-color: rgb(65, 63, 63);      
+}
+
+.habil h3 {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 5px;  
+}
+
+.habil ol {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.habil li {    
+    display: block  
 }
