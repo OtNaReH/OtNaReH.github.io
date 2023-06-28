@@ -11,3 +11,20 @@ img {
 h1 {
     font-size: 25px;
 }
+
+.header {
+    display: inline;
+    padding-top: 10px;
+}
+
+.header li{
+    display: inline-block;
+    text-align: left;
+    padding-right: 20px;  
+    font-weight: 300;  
+}
+
+.header a {
+    text-decoration: none;
+    color: #000;
+}
