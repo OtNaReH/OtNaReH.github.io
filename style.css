@@ -17,28 +17,23 @@ body {
     background-color: rgb(49, 45, 45);
 }
 
-.header img{
-    border: 2px solid gray;
-    
+.header img{     
+    margin-left: 450px;    
 }
 
-.header h1 {
-    display: inline;
-    float: right;    
-    padding-right: 670px;
-    padding-top: 40px;
+.header h1 {  
     font-weight: bold;
+    text-align: center;
 }
 
-.bio {
-    padding-top: 10px;
+.bio {      
     background-color: rgb(59, 55, 55);
 }
 
 .bio h2 {
     text-align: center;
     font-weight: bold;
-    padding: 10px 5px;
+    padding: 0px 5px 10px 5px;
 }
 
 .bio p {
