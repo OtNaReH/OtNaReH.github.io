@@ -10,35 +10,10 @@ body {
 
 .header {        
     color: white;    
-    margin: auto;   
-    min-width: 580px; 
+    margin: auto; 
+    min-width: 1300px; 
 }
 
-<<<<<<< HEAD
-.header img{     
-    margin-left: 450px;    
-}
-
-.header h1 {  
-    font-weight: bold;
-    text-align: center;
-}
-
-.bio {      
-    background-color: rgb(59, 55, 55);
-}
-
-.bio h2 {
-    text-align: center;
-    font-weight: bold;
-    padding: 0px 5px 10px 5px;
-}
-
-.bio p {
-    font-weight: 600;
-    text-align: center;
-    padding: 0 5px 15px 5px;
-=======
 .header img {
     border: 2px solid gray;
     margin: 20px 5px;
@@ -57,31 +32,33 @@ body {
 .header ul {
     display: inline;
     float: right;
-    padding-top: 100px;
-    margin-right: 60px;      
+    padding-top: 80px;
+    margin-right: 300px;      
 }
 
 .header li {
     display: inline-block;
-    font-size: 15px;
+    font-size: 30px;
     padding-right: 10px;
     font-weight: 600;    
 }
 
 .header h1 {
     padding: 0 0 10px 7px;
+    border-bottom: 2px solid gray;
 }
 
 .header h2 {
     padding: 20px 0 10px 7px;
 }
 
+
 .header p {
     padding: 0 0 20px 7px;
     font-weight: 400;
     font-style: italic;
     font-size: 17px;
->>>>>>> modifica
+    border-bottom: 2px solid gray;
 }
 
 .habil {
@@ -91,16 +68,23 @@ body {
 
 .habil h3{
 padding-left: 7px;
+padding-top: 15px;
 }
 
 .habil ol {
     list-style: none;  
     padding-left: 7px;  
-    padding-bottom: 20px;
+    padding-bottom: 20px;  
+    border-bottom: 2px solid gray;  
 }
 
 .habil li {
-    padding-top: 6px;
+    padding-top: 6px;    
+}
+
+.adrenaline {
+    padding-top: 15px;
+    padding-left: 7px;
 }
 
 .adrenaline a{
@@ -108,5 +92,5 @@ padding-left: 7px;
 }
 
 .adrenaline a:hover {
-    opacity: 1;
+    opacity: 1;    
 }
