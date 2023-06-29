@@ -1,67 +1,86 @@
-* {
-    box-sizing: border-box;
+* {    
     margin: 0;
     padding: 0;
 }
 
-body {
-    background-color: rgb(0, 0, 0);
-    color: rgb(226, 215, 215);
-    font-family: cursive;    
+body {    
+    font-family: cursive;  
+    background-color: rgb(43, 44, 44);  
 }
 
-.header, .bio, .habil {
-    width: 80%;
-    margin: auto;
-    padding-top: 10px;
-    background-color: rgb(49, 45, 45);
+.header {        
+    color: white;    
+    margin: auto;   
+    min-width: 580px; 
 }
 
-.header img{
+.header img {
     border: 2px solid gray;
-    
+    margin: 20px 5px;
+    border-radius: 100%;    
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+.header a:hover {
+    color: gray;
+}
+
+.header ul {
+    display: inline;
+    float: right;
+    padding-top: 100px;
+    margin-right: 60px;      
+}
+
+.header li {
+    display: inline-block;
+    font-size: 15px;
+    padding-right: 10px;
+    font-weight: 600;    
 }
 
 .header h1 {
-    display: inline;
-    float: right;    
-    padding-right: 670px;
-    padding-top: 40px;
-    font-weight: bold;
+    padding: 0 0 10px 7px;
 }
 
-.bio {
-    padding-top: 10px;
-    background-color: rgb(59, 55, 55);
+.header h2 {
+    padding: 20px 0 10px 7px;
 }
 
-.bio h2 {
-    text-align: center;
-    font-weight: bold;
-    padding: 10px 5px;
-}
-
-.bio p {
-    font-weight: 600;
-    text-align: center;
-    padding: 0 5px 15px 5px;
+.header p {
+    padding: 0 0 20px 7px;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 17px;
 }
 
 .habil {
-    background-color: rgb(65, 63, 63);      
+    
+    color: white;           
 }
 
-.habil h3 {
-    text-align: center;
-    font-weight: bold;
-    padding: 10px 5px;  
+.habil h3{
+padding-left: 7px;
 }
 
 .habil ol {
-    text-align: center;
-    padding-bottom: 10px;
+    list-style: none;  
+    padding-left: 7px;  
+    padding-bottom: 20px;
 }
 
-.habil li {    
-    display: block  
+.habil li {
+    padding-top: 6px;
+}
+
+.adrenaline a{
+    opacity: 0.3;    
+}
+
+.adrenaline a:hover {
+    opacity: 1;
 }
